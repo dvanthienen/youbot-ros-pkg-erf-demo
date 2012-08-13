@@ -49,6 +49,8 @@
 #include <tf/transform_datatypes.h>
 
 #include <tf/transform_broadcaster.h>
+#include "LinearMath/btTransform.h"
+#include "tf_datatypes.h"
 
 using namespace std;
 using namespace boost::units;

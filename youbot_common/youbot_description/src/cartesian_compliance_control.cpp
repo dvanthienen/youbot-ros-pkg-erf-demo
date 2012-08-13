@@ -44,6 +44,8 @@
 #include "20_sim_cartesian_compliance_control/common/xxmatrix.h"
 #include "pluginlib/class_list_macros.h"
 #include <tf/transform_datatypes.h>
+#include <LinearMath/btMatrix3x3.h>
+#include "tf_datatypes.h"
 
 PLUGINLIB_DECLARE_CLASS(youbot_description, CartesianComplianceController, controller::CartesianComplianceController, pr2_controller_interface::Controller)
 
